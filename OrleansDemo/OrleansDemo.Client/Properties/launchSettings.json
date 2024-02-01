@@ -9,6 +9,36 @@
     }
   },
   "profiles": {
+    "silo1": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:9500",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GATEWAY_PORT": "10102"
+      }
+    },
+    "silo2": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:9600",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GATEWAY_PORT": "10202"
+      }
+    },
+    "silo3": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:9700",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GATEWAY_PORT": "10302"
+      }
+    },
     "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
